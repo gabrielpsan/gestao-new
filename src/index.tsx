@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import '../src/styles/index.css';
+import App from './components/header';
+import Pessoa from './components/Cadastro/Pessoa';
+import Login from './components/login'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Pessoa />
+    {/* <IndexCadastro /> */}
+    {/* <Login /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
